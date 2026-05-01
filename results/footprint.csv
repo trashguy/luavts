@@ -1,0 +1,5 @@
+runtime,binary_bytes,binary_human
+lua54,1672432,1.6MB
+luajit,377168,369KB
+quickjs,5874456,5.7MB
+v8,38394472,37MB

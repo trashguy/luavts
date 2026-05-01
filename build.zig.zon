@@ -1,0 +1,13 @@
+.{
+    .name = .luavts,
+    .version = "0.0.0",
+    .fingerprint = 0xae7f19cd2b80c9b7,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "vendor",
+    },
+}

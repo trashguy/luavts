@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "rootDir": "../../src/workloads/ts",
+    "outDir": "../../src/workloads/ts-out-js"
+  },
+  "include": ["../../src/workloads/ts/**/*.ts"]
+}

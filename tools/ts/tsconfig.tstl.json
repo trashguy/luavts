@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "noImplicitAny": true,
+    "rootDir": "../../src/workloads/ts",
+    "outDir": "../../src/workloads/ts-out-lua",
+    "types": ["lua-types/5.4", "@typescript-to-lua/language-extensions"]
+  },
+  "tstl": {
+    "luaTarget": "5.4",
+    "luaLibImport": "require-minimal",
+    "noImplicitGlobalVariables": false,
+    "noImplicitSelf": true,
+    "noHeader": true,
+    "sourceMapTraceback": false
+  },
+  "include": ["../../src/workloads/ts/**/*.ts"]
+}
